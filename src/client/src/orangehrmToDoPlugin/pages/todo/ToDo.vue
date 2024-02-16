@@ -64,9 +64,11 @@
 <script>
 import {navigate} from '@ohrm/core/util/helper/navigation';
 import DeleteConfirmationDialog from '@ohrm/components/dialogs/DeleteConfirmationDialog.vue';
+import TableHeader from '@/core/components/table/TableHeader.vue';
 
 export default {
   components: {
+    TableHeader,
     'delete-confirmation': DeleteConfirmationDialog,
   },
 
